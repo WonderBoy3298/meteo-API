@@ -1,6 +1,6 @@
     function apiCall(city){
 
-   let APIKEY='1b6fe8a09da870658383ae266c2a7a37';
+   let APIKEY='xxxx';
    let url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}`;
   
 fetch(url).then(Response=>Response.json())  
